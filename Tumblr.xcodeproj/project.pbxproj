@@ -112,15 +112,10 @@
 				4CC42EEA1DCFC34500281034 /* AppDelegate.swift */,
 				4CC42EEC1DCFC34500281034 /* ViewController.swift */,
 				4CC42EEE1DCFC34500281034 /* Main.storyboard */,
-				4CC42F221DCFCACD00281034 /* TrendingViewController.swift */,
-				4CC42F201DCFCA1900281034 /* AccountViewController.swift */,
-				4CC42F1E1DCFC99600281034 /* ComposeViewController.swift */,
+				4CC42F241DCFCC5500281034 /* ViewControllers */,
 				4CC42EF11DCFC34500281034 /* Assets.xcassets */,
 				4CC42EF31DCFC34500281034 /* LaunchScreen.storyboard */,
 				4CC42EF61DCFC34500281034 /* Info.plist */,
-				4CC42F181DCFC3D400281034 /* TabBarViewController.swift */,
-				4CC42F1A1DCFC6D700281034 /* HomeViewController.swift */,
-				4CC42F1C1DCFC75B00281034 /* SearchViewController.swift */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -141,6 +136,19 @@
 				4CC42F0C1DCFC34600281034 /* Info.plist */,
 			);
 			path = TumblrUITests;
+			sourceTree = "<group>";
+		};
+		4CC42F241DCFCC5500281034 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CC42F221DCFCACD00281034 /* TrendingViewController.swift */,
+				4CC42F201DCFCA1900281034 /* AccountViewController.swift */,
+				4CC42F1E1DCFC99600281034 /* ComposeViewController.swift */,
+				4CC42F181DCFC3D400281034 /* TabBarViewController.swift */,
+				4CC42F1A1DCFC6D700281034 /* HomeViewController.swift */,
+				4CC42F1C1DCFC75B00281034 /* SearchViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
