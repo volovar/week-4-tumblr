@@ -15,4 +15,7 @@ class ComposeViewController: UIViewController {
 
     }
 
+    @IBAction func didPressDismiss(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 }

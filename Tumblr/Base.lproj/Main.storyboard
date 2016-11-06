@@ -54,6 +54,9 @@
                                         <state key="normal" image="compose_button">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="jVk-4r-ggX" kind="modal" id="WDB-rq-lV6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8lE-Jd-vsX">
                                         <rect key="frame" x="225" y="0.0" width="75" height="53"/>
@@ -146,7 +149,7 @@
         <!--Compose View Controller-->
         <scene sceneID="5F7-Gu-4i4">
             <objects>
-                <viewController storyboardIdentifier="ComposeViewController" id="jVk-4r-ggX" customClass="ComposeViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ComposeViewController" modalPresentationStyle="overCurrentContext" id="jVk-4r-ggX" customClass="ComposeViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EQz-P3-nYi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,6 +191,9 @@
                                 <state key="normal" title="Nevermind">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didPressDismiss:" destination="jVk-4r-ggX" eventType="touchUpInside" id="KaQ-Rs-BSZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20784313725490194" green="0.27450980392156865" blue="0.36078431372549019" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
