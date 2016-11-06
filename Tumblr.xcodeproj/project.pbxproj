@@ -14,6 +14,9 @@
 		4CC42EF51DCFC34500281034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC42EF31DCFC34500281034 /* LaunchScreen.storyboard */; };
 		4CC42F001DCFC34600281034 /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42EFF1DCFC34600281034 /* TumblrTests.swift */; };
 		4CC42F0B1DCFC34600281034 /* TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F0A1DCFC34600281034 /* TumblrUITests.swift */; };
+		4CC42F191DCFC3D400281034 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F181DCFC3D400281034 /* TabBarViewController.swift */; };
+		4CC42F1B1DCFC6D700281034 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F1A1DCFC6D700281034 /* HomeViewController.swift */; };
+		4CC42F1D1DCFC75B00281034 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F1C1DCFC75B00281034 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4CC42F061DCFC34600281034 /* TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC42F0A1DCFC34600281034 /* TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrUITests.swift; sourceTree = "<group>"; };
 		4CC42F0C1DCFC34600281034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC42F181DCFC3D400281034 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4CC42F1A1DCFC6D700281034 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4CC42F1C1DCFC75B00281034 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				4CC42EF11DCFC34500281034 /* Assets.xcassets */,
 				4CC42EF31DCFC34500281034 /* LaunchScreen.storyboard */,
 				4CC42EF61DCFC34500281034 /* Info.plist */,
+				4CC42F181DCFC3D400281034 /* TabBarViewController.swift */,
+				4CC42F1A1DCFC6D700281034 /* HomeViewController.swift */,
+				4CC42F1C1DCFC75B00281034 /* SearchViewController.swift */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC42F1D1DCFC75B00281034 /* SearchViewController.swift in Sources */,
 				4CC42EED1DCFC34500281034 /* ViewController.swift in Sources */,
+				4CC42F191DCFC3D400281034 /* TabBarViewController.swift in Sources */,
 				4CC42EEB1DCFC34500281034 /* AppDelegate.swift in Sources */,
+				4CC42F1B1DCFC6D700281034 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
