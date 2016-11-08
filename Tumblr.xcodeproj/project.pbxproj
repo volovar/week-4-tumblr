@@ -23,6 +23,7 @@
 		4CC42F261DD144AA00281034 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F251DD144AA00281034 /* Common.swift */; };
 		4CC42F291DD144B500281034 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F271DD144B500281034 /* BaseTransition.swift */; };
 		4CC42F2A1DD144B500281034 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F281DD144B500281034 /* FadeTransition.swift */; };
+		4CC42F2D1DD15E9F00281034 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC42F2C1DD15E9F00281034 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		4CC42F251DD144AA00281034 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4CC42F271DD144B500281034 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
 		4CC42F281DD144B500281034 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		4CC42F2C1DD15E9F00281034 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		4CC42F241DCFCC5500281034 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4CC42F2C1DD15E9F00281034 /* LoginViewController.swift */,
 				4CC42F221DCFCACD00281034 /* TrendingViewController.swift */,
 				4CC42F201DCFCA1900281034 /* AccountViewController.swift */,
 				4CC42F1E1DCFC99600281034 /* ComposeViewController.swift */,
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC42F2D1DD15E9F00281034 /* LoginViewController.swift in Sources */,
 				4CC42F1D1DCFC75B00281034 /* SearchViewController.swift in Sources */,
 				4CC42F291DD144B500281034 /* BaseTransition.swift in Sources */,
 				4CC42F231DCFCACD00281034 /* TrendingViewController.swift in Sources */,
