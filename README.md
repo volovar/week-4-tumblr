@@ -2,7 +2,7 @@
 
 The purpose of this homework is to leverage animations and gestures to create custom navigation. We're going to use the techniques from this week to implement some interactions in Tumblr.
 
-Time spent: `3 hours`
+Time spent: `3.5 hours`
 
 ### Features
 
@@ -19,6 +19,7 @@ Time spent: `3 hours`
 
 #### The following **additional** features are implemented:
 
+- [X] Custom loading indicator on search view
 - [X] Compose screen buttons animate out of view as the view disappears
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
