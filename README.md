@@ -2,7 +2,7 @@
 
 The purpose of this homework is to leverage animations and gestures to create custom navigation. We're going to use the techniques from this week to implement some interactions in Tumblr.
 
-Time spent: `2 hours`
+Time spent: `3 hours`
 
 ### Features
 
@@ -14,7 +14,7 @@ Time spent: `2 hours`
 #### Optional
 
 - [X] Compose screen is faded in while the buttons animate in.
-- [ ] Login button should show animate the login form over the view controller.
+- [X] Login button should show animate the login form over the view controller.
 - [ ] Discover bubble should bob up and down unless the SearchViewController is tapped.
 
 #### The following **additional** features are implemented:
@@ -23,8 +23,8 @@ Time spent: `2 hours`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. Best ways to style elements / views or add strictly visual elements
+2. How to re-use custom segue code, if that's a common practice at all
 
 ### Video Walkthrough 
 
