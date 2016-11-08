@@ -87,6 +87,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="buttonSuperview" destination="bm0-uT-2Fi" id="11d-ob-saB"/>
                         <outlet property="contentView" destination="z49-Xt-Tr7" id="OYq-Kc-HRw"/>
                         <outletCollection property="buttons" destination="YD7-hN-ZSz" collectionClass="NSMutableArray" id="L3h-da-lxk"/>
                         <outletCollection property="buttons" destination="ocq-k5-poZ" collectionClass="NSMutableArray" id="bCh-HM-MB4"/>
