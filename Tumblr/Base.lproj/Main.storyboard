@@ -198,6 +198,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.20784313725490194" green="0.27450980392156865" blue="0.36078431372549019" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="chatButton" destination="KzO-zd-eg3" id="VJI-zO-i7Q"/>
+                        <outlet property="linkButton" destination="j1y-iR-dSY" id="nCL-bY-uFY"/>
+                        <outlet property="photoButton" destination="lhr-sv-NvT" id="SSH-wY-9fP"/>
+                        <outlet property="quoteButton" destination="aW7-yc-xEj" id="pTU-XD-ztA"/>
+                        <outlet property="textButton" destination="nab-Bf-yLB" id="CQF-Sq-Ff4"/>
+                        <outlet property="videoButton" destination="Ac6-Hl-cOP" id="o8a-oK-pnv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKR-1N-mf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

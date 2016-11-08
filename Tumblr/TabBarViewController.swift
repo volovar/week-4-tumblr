@@ -19,6 +19,8 @@ class TabBarViewController: UIViewController {
     
     var viewControllers: [UIViewController]!
     var selectedIndex: Int = 0
+    
+    var fadeTransition: FadeTransition!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +37,19 @@ class TabBarViewController: UIViewController {
         // set initial view
         buttons[selectedIndex].isSelected = true
         didPressTab(buttons[selectedIndex])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // setting a variable for the destination view controller
+        let destinationViewController = segue.destination
+        
+        destinationViewController.modalPresentationStyle = UIModalPresentationStyle.custom
+        
+        fadeTransition = FadeTransition()
+        
+        destinationViewController.transitioningDelegate = fadeTransition
+        
+        fadeTransition.duration = 0.3
     }
 
     @IBAction func didPressTab(_ sender: UIButton) {
