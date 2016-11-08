@@ -33,25 +33,84 @@ class ComposeViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         // animate icons into final position
-        // TODO all icons animate at once, update so they animate one at a time, with a slight delay
-        for button in buttons {
-            UIView.animate(withDuration: 0.3, animations: { 
-                button.transform = CGAffineTransform.identity
+        // TODO there has to be a better way to do this
+        UIView.animate(withDuration: 0.3, animations: {
+            self.photoButton.transform = CGAffineTransform.identity
+        })
+        
+        delay(0.08, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.quoteButton.transform = CGAffineTransform.identity
             })
-        }
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        // move buttons back off the screen as the view disappears
-        for button in buttons {
-            UIView.animate(withDuration: 0.3, animations: { 
-                button.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - button.frame.origin.y)
-
+        })
+        
+        delay(0.16, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.chatButton.transform = CGAffineTransform.identity
             })
-        }
+        })
+        
+        
+        delay(0.24, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.textButton.transform = CGAffineTransform.identity
+            })
+        })
+        
+        
+        delay(0.32, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.linkButton.transform = CGAffineTransform.identity
+            })
+        })
+        
+        
+        delay(0.4, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.videoButton.transform = CGAffineTransform.identity
+            })
+        })
     }
 
     @IBAction func didPressDismiss(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        UIView.animate(withDuration: 0.3, animations: {
+            self.videoButton.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - self.videoButton.frame.origin.y)
+        })
+        
+        delay(0.04, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.linkButton.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - self.linkButton.frame.origin.y)
+            })
+        })
+        
+        delay(0.08, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.textButton.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - self.textButton.frame.origin.y)
+            })
+        })
+        
+        
+        delay(0.12, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.chatButton.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - self.chatButton.frame.origin.y)
+            })
+        })
+        
+        
+        delay(0.16, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.quoteButton.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - self.quoteButton.frame.origin.y)
+            })
+        })
+        
+        
+        delay(0.2, closure: {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.photoButton.transform = CGAffineTransform(translationX: 0, y: self.view.frame.height - self.photoButton.frame.origin.y)
+            })
+            
+            // wait to dismiss until all the icons have animated out of view
+            self.dismiss(animated: true, completion: nil)
+        })
     }
 }
